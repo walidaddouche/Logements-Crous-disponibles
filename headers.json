@@ -1,0 +1,24 @@
+{
+  "precision": 5,
+  "need_aggregation": true,
+  "page": 1,
+  "pageSize": 24,
+  "sector": null,
+  "idTool": 27,
+  "occupationModes": [],
+  "equipment": [],
+  "price": {
+    "min": 0,
+    "max": null
+  },
+  "location": [
+    {
+      "lon": 5.2287,
+      "lat": 43.391
+    },
+    {
+      "lon": 5.5325,
+      "lat": 43.1696
+    }
+  ]
+}

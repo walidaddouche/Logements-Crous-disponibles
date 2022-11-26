@@ -1,7 +1,7 @@
 import requests
 import json
 
-URL = "https://trouverunlogement.lescrous.fr/api/fr/search/27"  # WUZZUF JAVA JOBS PAGE RESULT
+URL = "https://trouverunlogement.lescrous.fr/api/fr/search/27"  
 f = open("headers.json")
 data = json.load(f)
 

@@ -18,12 +18,14 @@ data = json.loads(src)
 nb_logements = data["results"]["total"]
 
 data = data["aggregations"]["markers"]
+print(data)
 
-if len(data) > 2:
+if not data:
+    print("Pas de logements disponible ")
+
+else:
     print("Les logements disponible a " + city)
     for ele in data:
         arr = ele["residences"]
         for res in arr:
             print(res["label"])
-else :
-    print("Pas de logements disponible ")

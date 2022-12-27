@@ -18,7 +18,6 @@ data = json.loads(src)
 nb_logements = data["results"]["total"]
 
 data = data["aggregations"]["markers"]
-print(data)
 
 if not data:
     print("Pas de logements disponible ")
